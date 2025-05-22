@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>H:\Documents\VSProjects\D3D12Study\x64\Debug\D3D12Study.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>H:\Documents\VSProjects\D3D12Study\x64\Debug\Pixel.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>H:\Documents\VSProjects\D3D12Study\x64\Debug\Vertex.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

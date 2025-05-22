@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{08a6e3a0-3878-45bd-a2a6-4060278233d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{1723987a-a3c0-4d0c-9a1e-e5f53b5f58e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\header">
+      <UniqueIdentifier>{41f4b922-cf33-4894-adad-937258297833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\cpp">
+      <UniqueIdentifier>{79016be4-fe78-4553-9812-224f3c795c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{e0b719a5-af31-4a75-a65b-390c53fe0f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{05be6f32-aa44-4db9-a07c-3eef0f8f836f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="triangle">
+      <UniqueIdentifier>{6c4694c5-da0d-42a6-bb2a-8a1ed9ee2f5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Source.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\App.cpp">
+      <Filter>src\graphics\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>src\graphics\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Error.cpp">
+      <Filter>src\graphics\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics.cpp">
+      <Filter>src\graphics\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>src\graphics\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>src\graphics\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timer.cpp">
+      <Filter>src\graphics\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>src\graphics\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="src\Pixel.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Vertex.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\DXUT.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Types.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timer.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Error.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\App.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Triangle.h">
+      <Filter>triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resources.h">
+      <Filter>src\graphics\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\Resources.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icon.ico">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cursor.cur">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+
+#include "Resources.h"
+
+// ---------------------------------------------------------------------
+
+IDI_ICON        ICON        "D3D12Study\\Resources\\Icon.ico"
+IDC_CURSOR      CURSOR      "D3D12Study\Resources\\Cursor.cur"
+
+// ---------------------------------------------------------------------
+
+
